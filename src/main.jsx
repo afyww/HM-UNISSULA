@@ -4,7 +4,6 @@ import './index.css'
 import { motion } from "framer-motion";
 import Navbar from './components/Navbar'
 import Herosection from './components/Herosection'
-import Scrolldown from './components/Scrolldown'
 import Aboutsection from './components/Aboutsection';
 import Projectsection from './components/Projectsection';
 import Contactsection from './components/Contactsection';
@@ -26,7 +25,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <motion.div {...commonMotionProps}>
           <Herosection />
         </motion.div>
-        <Scrolldown />
         <motion.div {...commonMotionProps}>
           <Aboutsection />
         </motion.div>

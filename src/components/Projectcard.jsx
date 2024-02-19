@@ -1,11 +1,11 @@
+/* eslint-disable react/prop-types */
 import './App.css'
-import Learnmorebtn from './Learnmorebtn';
-import dinkesProjectImage from '../assets/images/Dinkes.png';
-import portfolioImage from '../assets/images/Portfolio.png';
-import Cashier from '../assets/images/Cashier.png'
+import hm1 from '../assets/images/Hm1.jpeg'
+import hm2 from '../assets/images/Hm2.jpeg'
+import hm3 from '../assets/images/Hm3.jpeg'
+import hm4 from '../assets/images/Hm4.jpeg'
 
 
-// eslint-disable-next-line react/prop-types
 const ProjectCard = ({ title, imageSrc, technologies, description }) => {
   return (
     <div className="rounded-sm space-y-3">
@@ -20,7 +20,6 @@ const ProjectCard = ({ title, imageSrc, technologies, description }) => {
       <p className="text-emerald-600 line-clamp-1">{technologies}</p>
       <p className="text-left font-light line-clamp-2 max-w-xs">{description}</p>
       
-      <Learnmorebtn title={title} technologies={technologies} description={description} />
     </div>
   );
 };
@@ -28,48 +27,29 @@ const ProjectCard = ({ title, imageSrc, technologies, description }) => {
 const ProjectCardList = () => {
   const projects = [
     {
-      title: 'Information System',
-      imageSrc: dinkesProjectImage,
-      technologies: 'Laravel-Tailwind-Jquery-Docker-Mysql',
-      description: 'Information system website for Dinas Kesehatan Kota Semarang.Build with laravel full stack framework and tailwind for the front end.This web for manage employee and make work letter for the employee.',
+      imageSrc: hm1,
     },
     {
-      title: 'Portfolio Website',
-      imageSrc: portfolioImage,
-      technologies: 'ReactJs-Javascript-Tailwind-FramerMotion',
-      description: 'Portfolio website for review my project.This website build with NextJs,Tailwind,And FramerMotion.',
+      imageSrc: hm2,
     },
     {
-      title: 'Cashier Web',
-      imageSrc: Cashier,
-      technologies: 'ReactJs-Javascript-Laravel-Tailwind',
-      description: 'Cashier web apps for coffeshop.This build with ReactJs for frontend,And Laravel rest api for backend.',
+      imageSrc: hm3,
     },
     {
-      title: 'Portfolio Website',
-      imageSrc: portfolioImage,
-      technologies: 'ReactJs-Javascript-Tailwind-FramerMotion',
-      description: 'Portfolio website for review my project.This website build with NextJs,Tailwind,And FramerMotion.',
+      imageSrc: hm4,
     },
     {
-      title: 'Portfolio Website',
-      imageSrc: portfolioImage,
-      technologies: 'ReactJs-Javascript-Tailwind-FramerMotion',
-      description: 'Portfolio website for review my project.This website build with NextJs,Tailwind,And FramerMotion.',
+      imageSrc: hm2,
     },
     {
-      title: 'Portfolio Website',
-      imageSrc: portfolioImage,
-      technologies: 'ReactJs-Javascript-Tailwind-FramerMotion',
-      description: 'Portfolio website for review my project.This website build with NextJs,Tailwind,And FramerMotion.',
+      imageSrc: hm2,
     },
-    // Add more projects as needed
   ];
 
   return (
     <div className="space-y-4 xl:mx-auto xl:my-auto">
       <div className="flex justify-center space-x-8">
-        <p className="text-white rounded-sm p-2 border">My Recent Works</p>
+        <p className="text-black rounded-sm font-bold text-2xl">Recent Activities</p>
       </div>
       <div className="grid xl:grid-cols-2 gap-8 overflow-y-scroll h-96 text-white p-8 bg-gray-600">
         {projects.map((project, index) => (

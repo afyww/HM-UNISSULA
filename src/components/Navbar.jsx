@@ -17,7 +17,7 @@ const Navbar = () => {
                         <div>
                             <a href="/" className="flex items-center space-x-2 p-3">
                                 <img className='w-14 h-14' src={logo} alt="" />
-                                <h1 className="font-extrabold text-4xl">HM</h1>
+                                <h1 className="font-extrabold text-4xl">HM TIF UNISSULA</h1>
                             </a>
                         </div>
                         <div className=" hidden items-center md:flex xl:flex text-white">

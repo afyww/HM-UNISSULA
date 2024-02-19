@@ -7,7 +7,7 @@ const Footersection = () => {
                 <div className=" grid grid-cols-4">
                     <div className="col-span-2 xl:col-span-3 md:col-span-3 2xl:col-span-3">
                         <a href="/" className="text-white">
-                            <span className="font-extrabold text-2xl text-black xl:text-3xl">HM.
+                            <span className="font-extrabold text-2xl text-black xl:text-3xl">HM TEKNIK INFORMATIKA
                             </span>
                         </a>
                     </div>
@@ -18,10 +18,8 @@ const Footersection = () => {
                         <a href="#contact">Contact</a>
                     </div>
                 </div>
-
                 <div className="grid grid-cols-2">
                     <div className="col-span-1">
-                        <p className="text-white text-xs xl:text-base 2xl:text-base font-sans">© Designed By Afyww</p>
                     </div>
                 </div>
             </div>
