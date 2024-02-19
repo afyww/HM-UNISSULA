@@ -4,7 +4,7 @@ import TypewriterComponent from 'typewriter-effect';
 
 const Projectsection = () => {
   const typewriterOptions = {
-    strings: ['Kegiatan'],
+    strings: ['Activities'],
     autoStart: true,
     loop: true,
     delay: 50,
