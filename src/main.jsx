@@ -8,6 +8,7 @@ import Aboutsection from './components/Aboutsection';
 import Projectsection from './components/Projectsection';
 import Contactsection from './components/Contactsection';
 import Footersection from './components/Footersection';
+import Struktural from './components/Struktural';
 
 
 const commonMotionProps = {
@@ -25,6 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <motion.div {...commonMotionProps}>
           <Herosection />
         </motion.div>
+        <Struktural />
         <motion.div {...commonMotionProps}>
           <Aboutsection />
         </motion.div>
